@@ -18,7 +18,7 @@
 ## 演示
 
 - 演示网站   
-  https://navhive.skiy.net
+  https://navhive.ooos.top
 - 本地演示   
   ```sh
   zola serve
@@ -153,9 +153,9 @@ cp themes/navhive/{.gitignore,.deploy.sh} .
     ```sh
     # favicon: <URL>
     ```
-    - 自建方式一（PHP）:<https://github.com/deploybox/GetFavicon>
-    - 自建方式二（PHP）:<https://github.com/deploybox/FetchFavicon>
-    - 自建方式三（CloudFlare）:<https://github.com/Aetherinox/searxico-worker>
+    - 自建方式一（PHP）：<https://github.com/deploybox/favicon-1>
+    - 自建方式二（PHP）：<https://github.com/deploybox/favicon-2>
+    - 自建方式三（CloudFlare）：<https://github.com/Aetherinox/searxico-worker>
 
 ## 仓库镜像
 
