@@ -16,15 +16,15 @@
           url: https://forum.idev.top/
           description: 开发者技术交流社区
           qrcode:
-        - title: Code
-          logo: gitlab.png
-          favicon:
+        - title: MyCode
+          logo: gitea.svg
+          favicon: https://gitea.com/assets/img/logo.svg
           url: "https://git.jetsung.com/jetsung"
           description: 项目源码托管平台
-        - title: GitCode
-          logo: gitcode.png
+        - title: AtomGit
+          logo: atomgit.png
           favicon:
-          url: "https://gitcode.com/jetsung"
+          url: "https://atomgit.com/jetsung"
           description: （国内）作品项目代码开源          
         - title: GitHub
           logo: github.png
@@ -53,10 +53,10 @@
           favicon:
           url: https://github.com
           description: 全球最大的代码托管平台
-        - title: ◈GitCode
-          logo: gitcode.png
+        - title: ◈AtomGit
+          logo: atomgit.png
           favicon:
-          url: https://gitcode.com
+          url: https://atomgit.com
           description: （国内）代码托管平台
         - title: ◈Framagit
           logo: framagit.svg
@@ -64,8 +64,8 @@
           url: https://framagit.org
           description: 基于 GitLab，代码托管平台，支持 Pages。
         - title: ◈Codeberg
-          logo: codeberg.png
-          favicon:
+          logo: codeberg.svg
+          favicon: https://codeberg.org/assets/img/svg/cb-logo.svg
           url: https://codeberg.org
           description: 基于 Gitea，代码托管平台，支持 Pages。
         - title: 阿里云效 Codeup
@@ -83,16 +83,6 @@
           favicon:
           url: https://gitlab.com
           description: （可自建）代码托管平台
-        - title: Coding
-          logo: coding.png
-          favicon:
-          url: https://coding.net
-          description: （国内）代码托管平台
-        - title: AtomGit
-          logo: atomgit.png
-          favicon:
-          url: https://atomgit.com
-          description: （国内）开放原子开源基金会提供的代码托管平台
         - title:
           logo: ""
           favicon:
