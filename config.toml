@@ -10,17 +10,12 @@ compile_sass = false
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-theme = "navhive"
+theme = "zola-hive"
 
 output_dir = "public"
 
 # The default author for pages
 author = "Jetsung Chan"
-
-[markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
 
 [extra]
     author        = "Jetsung Chan"

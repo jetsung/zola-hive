@@ -25,7 +25,11 @@
                 <div class="url-content d-flex align-items-center">
                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                     {% set logoUrl = ele.logo | default(value='') %}
-                    {% if logoUrl is starting_with("http") %}
+                    {% set logoHttp = false %}
+                    {% if logoUrl %}
+                        {% set logoHttp = logoUrl | split(pat="://") | length > 1 %}
+                    {% endif %}
+                    {% if logoHttp %}
                         <img class="lazy" 
                             src="{{ logoUrl }}" 
                             data-src="{{ logoUrl }}" 

@@ -1,6 +1,6 @@
-# NavHive
+# zola-hive
 
-> NavHive 是一个简洁、优雅且高效的 [**Zola**](https://www.getzola.org/) 网址导航主题
+> zola-hive 是一个简洁、优雅且高效的 [**Zola**](https://www.getzola.org/) 网址导航主题
 
 ## 特征
 
@@ -13,12 +13,12 @@
 
 ## 预览图
 
-![Zola NavHive 主题](screenshot.png)
+![Zola Hive 主题](screenshot.png)
 
 ## 演示
 
 - 演示网站   
-  https://navhive.ooos.top
+  <https://zola-hive.gcli.cn>
 - 本地演示   
   ```sh
   zola serve
@@ -39,13 +39,13 @@ git init
 
 ```sh
 # 添加主题（未添加此主题时）
-git submodule add https://github.com/idevsig/navhive.git themes/navhive
+git submodule add https://github.com/jetsung/zola-hive.git themes/zola-hive
 
 # 首次使用（首次从 Git 拉取代码时）
 git submodule update --init --recursive
 
 # 拉取当前主题最新代码
-git submodule update --remote themes/navhive
+git submodule update --remote themes/zola-hive
 
 # 拉取所有最新主题代码
 git submodule foreach git pull origin main
@@ -53,7 +53,7 @@ git submodule foreach git pull origin main
 
 3. 复制 `exampleSite`   
 ```sh
-cp -r themes/navhive/exampleSite/* .
+cp -r themes/zola-hive/exampleSite/* .
 ```
 
 4. 设置数据
@@ -67,7 +67,7 @@ content
 - `friendlinks.yml` 格式：
 ```yaml
 - title: 杰森
-  url: https://i.jetsung.com/
+  url: https://jetsung.com/
   description: 个人网站    
 ```
 
@@ -75,7 +75,7 @@ content
 ```yaml
 - item: 主页
   icon: fas fa-blog
-  link: "https://i.jetsung.com"
+  link: "https://jetsung.com"
 
 - item: 源码
   icon: fab fa-git
@@ -130,7 +130,7 @@ zola build
 
 8. *复制其它文件
 ```sh
-cp themes/navhive/{.gitignore,.deploy.sh} . 
+cp themes/zola-hive/{.gitignore,.deploy.sh} . 
 ```
 
 ## 获取 ICON 图标
@@ -157,13 +157,8 @@ cp themes/navhive/{.gitignore,.deploy.sh} .
     - 自建方式二（PHP）：<https://github.com/deploybox/favicon-2>
     - 自建方式三（CloudFlare）：<https://github.com/Aetherinox/searxico-worker>
 
-## 仓库镜像
 
-- https://git.jetsung.com/idev/navhive
-- https://framagit.org/idev/navhive
-- https://gitcode.com/idev/navhive
-- https://github.com/idevsig/navhive
+## Mirrors
 
-## Author
+[MyCode](https://git.jetsung.com/jetsung/zola-hive) ● [AtomGit](https://atomgit.com/jetsung/zola-hive) ● [GitHub](https://github.com/jetsung/zola-hive)
 
-[Jetsung Chan](https://i.jetsung.com)

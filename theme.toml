@@ -1,13 +1,13 @@
-name = 'NavHive'
+name = 'zola-hive'
 license = 'Apache 2.0'
-licenselink = 'https://github.com/idevsig/navhive/blob/main/LICENSE'
-description = 'NavHive theme'
+licenselink = 'https://github.com/jetsung/zola-hive/blob/main/LICENSE'
+description = 'zola-hive theme'
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/idevsig/navhive'
+homepage = 'https://github.com/jetsung/zola-hive'
 
 # If you have a running demo of the theme
-demosite = 'https://navhive.skiy.net'
+demosite = 'https://zola-hive.gcli.cn'
 
 # Taxonomy terms
 tags = ['navigation', 'light', 'dark' ]

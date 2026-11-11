@@ -7,7 +7,7 @@
         {% set hash_str = index ~ "-main-" ~ taxonomy_item.taxonomy %}
         {% set hash_str_sha = get_hash(literal=hash_str, sha_type=256, base64=false) | safe %}
         {# 一级分类 #}
-        {% include "main/component/top.html" ignore missing %}
+        {% include "main/component/top.html" %}
 
         {% for item in taxonomy_item.list %}
         {% set idx = loop.index %}
@@ -34,7 +34,7 @@
                         {% for ele in item.links %}
                             {% set i = loop.index %}
                             {% set index_id = "index-" ~ index ~ "-" ~ idx ~ "-" ~ i %}
-                            {% include "main/component/grid.html" ignore missing %}
+                            {% include "main/component/grid.html" %}
                         {% endfor %}
                     </div>
                 </div>

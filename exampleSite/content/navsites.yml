@@ -93,8 +93,8 @@
           favicon:
           url: https://atomgit.com
           description: （国内）开放原子开源基金会提供的代码托管平台
-        - title: 
-          logo:
+        - title:
+          logo: ""
           favicon:
           url: https://forum.idev.top/d/208
           description: ⇒更多代码托管服务平台

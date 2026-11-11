@@ -8,12 +8,12 @@
 	{% if data %}
         {# 卡片模式 #}
         {% if config.extra.cardMode %}
-            {% include "main/card.html" ignore missing %}
+            {% include "main/card.html" %}
         {% else %}
-            {% include "main/content.html" ignore missing %}
+            {% include "main/content.html" %}
         {% endif %}
     {% endif %}
-	{% include "partials/friends.html" ignore missing %}
+	{% include "partials/friends.html" %}
 </div>
 
 {% endblock main_content %}
